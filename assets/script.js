@@ -51,7 +51,7 @@ function generatePassword() {
       confirmIfLowerCaseWanted = confirm("Shift key to hard to hold, guess you need lowercase letters then?");
     }
     if (!confirmIfLowerCaseWanted && !confirmIfNumberWanted && !confirmIfSymbolsWanted && !confirmIfUpperCaseWanted) {
-      confirmedItems = confirm("So you want nothing thats a great password, let try again");
+      confirmedItems = confirm("So you want nothing, thats a great password, let try again");
     } else {
       //need to add vaule to make while statement start and finish
       confirmedItems = ""
