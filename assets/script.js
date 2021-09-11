@@ -20,6 +20,9 @@ let password = "";
 //window prompting once "generate password is clicked"
 function generatePassword() {
 
+  confirmedItems = "";
+  password = "";
+  
   var passwordLength = Number(prompt("Pick a number between 8 and 128?"));
   if (passwordLength < 8 || passwordLength > 128) {
     passwordLength = Number(prompt("You trying to be funny I see, You must choose between 8 and 128"));
