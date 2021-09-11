@@ -1,3 +1,4 @@
+/* affects width and height of box on everything */
 *,
 *::before,
 *::after {
@@ -127,6 +128,7 @@ button[disabled] {
   color: #FFFFFF;
 }
 
+/* change if screen is small then standard */
 
 @media (max-width: 690px) {
   .btn {
